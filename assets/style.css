@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+#tombola-table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+#tombola-table td {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  margin-top: 20px;
+}
+
+#extractedNumbers {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Aggiunto stile per evidenziare il numero estratto nella tabella */
+#tombola-table td.highlighted {
+  background-color: yellow;
+  border: 2px solid #ff0000;
+  box-sizing: border-box;
+}
